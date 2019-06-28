@@ -1,0 +1,129 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background-color: #F3767C;
+  overflow: hidden;
+}
+
+.Screen {
+  display: flex;
+  background-color:#A2AF77;
+  border: none;
+  width: 324px;
+  flex-direction: column;
+  text-align: right;
+  border-radius: 18px;
+  margin-top: 34px;
+  height: 95px;
+}
+
+h1 {
+  padding-right: 20px
+}
+
+button {
+  background-color: #58595B;
+  border: none;
+  color: white;
+  text-align: center;
+  display: flexbox;
+  font-size: 40px;
+  cursor: pointer;
+  height: 46px;
+  width: 70px;
+  outline: none;
+  line-height: 46px;
+  pointer-events: auto;
+}
+
+.zeroBtn {
+  width: 154px;
+}
+
+.equals {
+  background-color: #F25A2B;
+  height: 112px;
+  position: absolute;
+  right: 0%;
+  bottom: 0%;
+}
+
+ .equals:hover {
+  background-color: #bc3500;
+} 
+
+button:hover {
+  background-color: lightgrey;
+}
+
+button:active {
+  background-color: darkgrey;
+  box-shadow: 0 2px #666;
+  transform: translateY(2px);
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 18px;
+  height: 47px;
+  width: 322px;
+  pointer-events: none;
+  position: relative;
+}
+
+.Buttons {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 81%;
+  width: 86%;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.Calculator {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(to right, #3F373E, #1F1B21);
+  background-color: #39393B;
+  border-radius: 20px;
+  position: relative;
+  height: 465px;
+  width: 378px;
+  padding-bottom: 20px;
+}
+
+.container {
+  position: relative;
+  top: 10vh;
+}
+
+.Shadow {
+  background-color: #B4353C;
+  transform: rotate(15deg) skew(-21deg);
+  position: absolute;
+  top: 24.8%;
+  left: 45.4%;
+  height: 557px;
+  width: 1201px;
+  z-index: -1;
+}
+
+.black {
+  background-color: black; 
+  font-size: 26px;
+}
+
